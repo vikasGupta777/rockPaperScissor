@@ -12,4 +12,10 @@ function getComputerChoice(){
     }
 }
 
-console.log(getComputerChoice());
+function gethumanChoice(){
+    let input = prompt(" Enter your choice from 'Rock' 'Paper' and 'Scissor' ");
+    console.log(input);
+    input = input[0].toUpperCase() + input.slice(1);
+    return input;
+}
+
