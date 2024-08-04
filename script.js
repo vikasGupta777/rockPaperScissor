@@ -1,4 +1,5 @@
-
+let humanScore = 0;
+let computerScore = 0;
 
 function getComputerChoice(){
     let random =  Math.floor(Math.random() * 3);
@@ -14,7 +15,6 @@ function getComputerChoice(){
 
 function gethumanChoice(){
     let input = prompt(" Enter your choice from 'Rock' 'Paper' and 'Scissor' ");
-    console.log(input);
     input = input[0].toUpperCase() + input.slice(1);
     return input;
 }
