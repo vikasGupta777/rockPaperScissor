@@ -4,6 +4,7 @@
 
 function getComputerChoice(){
     let random =  Math.floor(Math.random() * 3);
+
     if( random == 0 ){
         return "Rock";
     }else if(random == 1){
@@ -49,10 +50,34 @@ function playRound(humanChoice, computerChoice){
     }           
 }
 
-let humanSelection = getHumanChoice();
-let computerSelection = getComputerChoice();
+function playGame(){
 
-playRound(humanSelection,computerSelection);
+    
+    let humanSelection = getHumanChoice();
+    let computerSelection = getComputerChoice();
+    playRound(humanSelection,computerSelection);
+
+    humanSelection = getHumanChoice();
+    computerSelection = getComputerChoice();
+    playRound(humanSelection,computerSelection);
+
+    humanSelection = getHumanChoice();
+    computerSelection = getComputerChoice();
+    playRound(humanSelection,computerSelection);
+
+    humanSelection = getHumanChoice();
+    computerSelection = getComputerChoice();
+    playRound(humanSelection,computerSelection);
+
+    humanSelection = getHumanChoice();
+    computerSelection = getComputerChoice();
+    playRound(humanSelection,computerSelection);
+
+    alert(` Your Score ${ humanScore } Computer Score ${ computerScore} and Match tied ${tieScore} `);
+}
+
+playGame();
+
 
 
 
