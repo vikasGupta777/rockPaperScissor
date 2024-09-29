@@ -1,0 +1,58 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.main{
+    width:100%;
+    height:100vh;
+}
+
+.header{
+    text-align: center;
+    color:red;
+}
+
+.main-container{
+    display:flex;
+    justify-content: space-between;
+
+
+}
+
+.player{
+    padding:50px;
+    border:1px solid black;
+    width:20%;
+}
+
+.player-Choice{
+    padding:50px;
+    border:1px solid black;
+    width:20%;
+
+}
+
+.result{
+    padding:50px;
+    border:1px solid black;
+    width:30%;
+}
+
+.computer-choice{
+    
+    padding:50px;
+    border:1px solid black;
+    width:30%;
+}
+
+.footer{
+    border:1px solid black;
+
+}
+
+
+
+
+
