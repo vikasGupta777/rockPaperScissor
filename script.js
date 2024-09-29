@@ -10,7 +10,7 @@ function getComputerChoice(){
     }else if(random == 1){
         return "Paper";
     }else{
-        return "Scissor";
+        return "Scissor";  
     }
 }
 
