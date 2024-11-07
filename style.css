@@ -7,6 +7,7 @@ body{
 .main{
     width:100%;
     height:100vh;
+    padding:10px;
 }
 
 .header{
@@ -17,40 +18,152 @@ body{
 .main-container{
     display:flex;
     justify-content: space-between;
+    gap:5px;
+    max-height: max-content;
+    height:600px;
+    margin-bottom:10px;
 
 
 }
 
 .player{
-    padding:50px;
-    border:1px solid black;
+
     width:20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap:10px;
+    margin-right:10px;
 }
 
-.player-Choice{
-    padding:50px;
-    border:1px solid black;
-    width:20%;
+.rock{
+    
+    height:100%;
+    width:100%;
 
+}
+
+#rockBtn{
+    height:100%;
+    width:100%;
+    padding:0;
+
+}
+
+.paper{
+   
+    height:100%;
+    width:100%;
+}
+#paperBtn{
+    height:100%;
+    width: 100%;
+    padding:0;
+}
+
+.scissor{
+    height:100%;
+    width:100%;
+}
+
+#scissorBtn{
+    height:100%;
+    width:100%;
+    padding:0;
+}
+
+/* ----------------------------------- */
+
+.player-Choice{
+    
+    width:20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.playerChoice-container{
+
+    border:1px solid black;
+    height: 191px;
+    width: 100%;
+
+}
+
+/* --------------------------------------------- */
+.result-container{
+
+    border:1px solid black;
+    width:35%;
+    border-radius: 50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .result{
-    padding:50px;
     border:1px solid black;
-    width:30%;
+    margin-top: 250px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 50px;
+    text-align: center;
 }
+
+.result-score{
+    display:flex;
+    justify-content: space-between;
+}
+
+.player-score{
+
+    margin-bottom: 50px;
+    border: 1px solid black;
+    padding: 40px;
+    margin-left: 149px;
+}
+
+.computer-score{
+    margin-bottom: 50px;
+    border: 1px solid black;
+    padding: 40px;
+    margin-right: 149px;
+}
+
+/* ------------------------------------------------- */
 
 .computer-choice{
     
-    padding:50px;
-    border:1px solid black;
-    width:30%;
+
+    width:20%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+
+.computer-icon{
+
+    border:1px solid black;
+    height: 191px;
+    width: 100%;
+}
+
+#compBtn{
+    height: 100%;
+    width: 100%;
+}
+
+/* ------------------------------------------------------- */
 .footer{
     border:1px solid black;
-
+    text-align: center;
+    height:30px;
+    margin-top:10px;
 }
+
+
 
 
 
